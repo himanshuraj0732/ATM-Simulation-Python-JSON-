@@ -1,8 +1,8 @@
-🏦 Banking System (Python + JSON)
+🏦 Banking System
 
-This is a simple Banking System made with Python.
-It lets you check balance, deposit money, and withdraw money.
-The balance is saved in a file called bank.json, so it doesn’t reset when you close the program.
+A simple banking system made with Python and JSON.
+It allows you to check balance, deposit money, and withdraw money.
+The balance is saved in a JSON file so it does not reset after closing the program.
 
 Features
 
@@ -10,26 +10,24 @@ View balance
 
 Deposit money
 
-Withdraw money (only if enough balance)
+Withdraw money
 
-Balance saved permanently in bank.json
+Balance saved permanently
 
 How to Run
 
-Save the code in a file, e.g. banking_system.py
+Open the project in Python
 
-Run it using:
+Run the file
 
-python banking_system.py
-
-
-Follow the menu options.
+Choose options from the menu
 
 Example
---- Banking System ---
-1. View balance
-2. Deposit
-3. Withdraw
-4. Exit
-Enter your choice: 1
-Your balance is ₹0
+
+View current balance
+
+Add money to balance
+
+Withdraw money if available
+
+Exit the system
