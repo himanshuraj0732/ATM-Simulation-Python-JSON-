@@ -1,66 +1,35 @@
-# ATM-Simulation-Python-JSON-
+🏦 Banking System (Python + JSON)
 
-🏦 Simple Banking System (Python + JSON)
+This is a simple Banking System made with Python.
+It lets you check balance, deposit money, and withdraw money.
+The balance is saved in a file called bank.json, so it doesn’t reset when you close the program.
 
-A beginner-friendly Banking System built with Python.
-This project allows users to view balance, deposit money, and withdraw money.
-All transactions are stored in a JSON file (bank.json), so the balance is saved permanently.
+Features
 
-🚀 Features
+View balance
 
-✅ View current account balance
+Deposit money
 
-✅ Deposit money into account
+Withdraw money (only if enough balance)
 
-✅ Withdraw money (with balance check)
+Balance saved permanently in bank.json
 
-✅ Data persistence using bank.json
+How to Run
 
-✅ Simple and interactive CLI menu
+Save the code in a file, e.g. banking_system.py
 
-🛠️ Technologies Used
-
-Python 3
-
-JSON (for storing balance)
-
-📂 Project Structure
-banking_system/
-│── bank.json          # Stores account balance
-│── banking_system.py  # Main Python script
-
-▶️ How to Run
-
-Clone this repository:
-
-git clone https://github.com/your-username/banking-system.git
-
-
-Navigate to the folder:
-
-cd banking-system
-
-
-Run the script:
+Run it using:
 
 python banking_system.py
 
-📸 Example Output
+
+Follow the menu options.
+
+Example
 --- Banking System ---
 1. View balance
 2. Deposit
 3. Withdraw
 4. Exit
-Enter your choice: 2
-Enter the amount you want to deposit: 1000
-$1000 amount is added to your balance
-
-💡 Future Improvements
-
-✨ Add multiple accounts with usernames & passwords
-
-✨ Transaction history (deposit/withdraw logs)
-
-✨ Interest calculation feature
-
-✨ GUI version using Tkinter or Flask web app
+Enter your choice: 1
+Your balance is ₹0
